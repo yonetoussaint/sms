@@ -1,3 +1,12 @@
+import React from 'react';
+import Calculator from './Calculator';
+
 function App() {
-  return <h1>Hello World</h1>
-)
+  return (
+    <div>
+      <Calculator />
+    </div>
+  );
+}
+
+export default App;
